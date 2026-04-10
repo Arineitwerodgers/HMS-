@@ -1,0 +1,110 @@
+/* ── Global Reset & Base ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaf4fb;
+  color: #1a2e3b;
+  min-height: 100vh;
+}
+
+/* ── App Container ── */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+.app-header {
+  background: linear-gradient(135deg, #1a5276 0%, #2980b9 100%);
+  color: #ffffff;
+  padding: 20px 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.header-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.header-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+/* ── Main Content ── */
+.app-main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 28px auto;
+  padding: 0 20px;
+}
+
+/* ── Content Grid ── */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Visiting Hours Banner ── */
+.visiting-hours-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #d6eaf8;
+  border: 1px solid #aed6f1;
+  border-left: 5px solid #2980b9;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  font-size: 1rem;
+  color: #1a5276;
+}
+
+.visiting-hours-icon {
+  font-size: 1.3rem;
+}
+
+.visiting-hours-text strong {
+  margin-right: 4px;
+}
+
+/* ── Footer ── */
+.app-footer {
+  background-color: #1a5276;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 0.82rem;
+}
