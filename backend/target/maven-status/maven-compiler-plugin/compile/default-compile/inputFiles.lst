@@ -1,7 +1,0 @@
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/controller/AppointmentController.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/VisitationApplication.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/config/CorsConfig.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/repository/AppointmentRepository.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/service/AppointmentService.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/model/Appointment.java
-/home/runner/work/HMS-/HMS-/backend/src/main/java/com/hospital/visitation/dto/AppointmentRequest.java
