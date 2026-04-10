@@ -1,0 +1,8 @@
+com/hospital/visitation/model/Appointment.class
+com/hospital/visitation/config/CorsConfig.class
+com/hospital/visitation/controller/AppointmentController.class
+com/hospital/visitation/dto/AppointmentRequest.class
+com/hospital/visitation/config/CorsConfig$1.class
+com/hospital/visitation/VisitationApplication.class
+com/hospital/visitation/service/AppointmentService.class
+com/hospital/visitation/repository/AppointmentRepository.class
