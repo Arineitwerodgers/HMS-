@@ -58,6 +58,9 @@ public class AppointmentService {
         if (visitTime.isAfter(VISITING_CLOSE)) {
             throw new IllegalArgumentException("Visit time must be 18:00 or earlier.");
         }
+        if (departureTime.isBefore(VISITING_OPEN)) {
+            throw new IllegalArgumentException("Departure time must be 08:00 or later.");
+        }
         if (departureTime.isAfter(VISITING_CLOSE)) {
             throw new IllegalArgumentException("Departure time must be 18:00 or earlier.");
         }
